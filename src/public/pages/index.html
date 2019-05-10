@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../resources/css/style.css" />
+
+    <title>File Search</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">File Upload</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="form-group">
+              <input
+                id="txtFileKey"
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="Search for files here..."
+                autofocus
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <h3><strong>Result</strong></h3>
+            </div>
+            <ul id="fileResults" class="list-group list-group-flush"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../resources/js/file.js"></script>
+  </body>
+</html>

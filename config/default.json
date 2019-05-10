@@ -1,0 +1,17 @@
+{
+  "Global": {
+    "encoding": "utf-8",
+    "defaultLang": "en"
+  },
+  "Logger": {
+    "Console": {
+      "isEnabled": true,
+      "level": "debug"
+    },
+    "File": {
+      "isEnabled": true,
+      "level": "debug",
+      "filename": "logs/log.log"
+    }
+  }
+}

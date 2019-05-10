@@ -1,0 +1,25 @@
+{
+  "name": "file-upload",
+  "version": "0.0.1",
+  "description": "Sun Life's file upload service",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && npm audit"
+  },
+  "author": "Arjay Osma <Arjay.Osma@sunlife.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "config": "^3.1.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "normalize-port": "^1.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "standard": "^12.0.1"
+  }
+}
